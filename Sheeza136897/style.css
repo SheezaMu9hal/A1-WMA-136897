@@ -1,0 +1,172 @@
+/* Navbar Styles */
+*{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #082c4e;
+    padding: 20px 40px;
+}
+
+.brand {
+    color: white;
+    font-weight: bold;
+    font-size: larger;
+}
+
+.navbar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.navbar li {
+    margin-left: 40px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+    font-size: larger;
+}
+
+.navbar a:hover {
+    background-color: #0c3e6e;
+}
+
+/* Main Section Styles */
+.main {
+    font-size: 20px;
+    display: flex;
+    color: white;
+    align-items: flex-start;
+    background-color: #082c4e;
+    padding: 100px 40px;
+}
+
+.main > .heading > h1 {
+    font-size: 40px;
+    padding: 0px 40px;
+    margin-top: 0px;
+}
+
+.main > .heading > p {
+    font-size: 20px;
+    padding: 0px 40px;
+}
+
+.main > img {
+    margin: auto;
+}
+
+.heading > .link {
+    width: 28%;
+    text-align: center;
+    background-color: #082c4e;
+    border: 2px solid white;
+    border-radius: 30px;
+    margin-top: 24px;
+    margin-left: 50px;
+    padding: 10px;
+}
+
+.heading > .link a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.heading > .link:hover {
+    background-color: #051f3b;
+}
+
+/* Centre Section Styles */
+.centre {
+    text-align: center;
+    color: #082c4e;
+    font-size: 20px;
+}
+
+/* Third Section Styles */
+.third {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px 10px;
+    overflow-y: auto;
+}
+
+.feature .content {
+    display: none;
+    margin-top: 10px;
+}
+
+.feature input[type="checkbox"] {
+    display: none;
+}
+
+.feature input[type="checkbox"]:checked ~ .content {
+    display: block;
+}
+
+.feature input[type="checkbox"]:not(:checked) ~ .content {
+    display: none;
+}
+
+.feature {
+    padding: 20px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+}
+
+.marketing {
+    background-color: #ea4858;
+    color: white;
+}
+
+.Design {
+    background-color: darkgoldenrod;
+    color: white;
+}
+
+.Research {
+    background-color: rgb(6, 91, 133);
+    color: white;
+}
+
+.Branding {
+    background-color: #d6d8db;
+    color: #082c4e;
+}
+
+/* Last Section Styles */
+.last {
+    font-size: 20px;
+    color: white;
+    background-color: #082c4e;
+    padding-top: 40px;
+    padding-bottom: 10px;
+    padding-left: 400px;
+}
+
+.last > h1 {
+    font-size: 31px;
+    padding: 0px 0px;
+    margin-top: 0px;
+    color: white;
+    text-align: left;
+}
+
+.last > h1 > a {
+    color: rgb(241, 198, 88);
+    text-decoration: none;
+}
+
+.last > h1 > a:hover {
+    background-color: #051f3b;
+}
